@@ -1,0 +1,21 @@
+{
+    "contacts": [
+        {"id": 1, "name": "Asma Zahoor", "avatar": "asma.png", "lastSeen": "10:57 PM"},
+        {"id": 2, "name": "Amina", "avatar": "amina.jpg", "lastSeen": "9:02 PM"},
+        {"id": 3, "name": "Miftah", "avatar": "Miftah.png", "lastSeen": "10:57 PM"},
+        {"id": 4, "name": "Eman", "avatar": "eman.png", "lastSeen": "10:57 PM"},
+        {"id": 5, "name": "Amash", "avatar": "amash.png", "lastSeen": "9:02 PM"},
+        {"id": 6, "name": "Hadii", "avatar": "hadi.png", "lastSeen": "9:02 PM"},      
+        {"id": 7, "name": "Sis", "avatar": "asma.png", "lastSeen": "9:02 PM"},
+        {"id": 8, "name": "Eman", "avatar": "eman.png", "lastSeen": "10:57 PM"},        
+        {"id": 9, "name": "Awais", "avatar": "awais.png", "lastSeen": "9:02 PM"}
+
+    ],
+    "messages": [
+        {"id": 1, "contactId": 1, "text": "Hi", "timestamp": "11:01 PM"},
+        {"id": 2, "contactId": 2, "text": "Hello", "timestamp": "10:50 PM"},
+        {"id": 3, "contactId": 3, "text": "How are you?", "timestamp": "10:50 PM"},
+        {"id": 4, "contactId": 3, "text": "I am fine", "timestamp": "10:50 PM"},
+        {"id": 5, "contactId": 4, "text": "I am doing well", "timestamp": "10:50 PM"}
+    ]
+}

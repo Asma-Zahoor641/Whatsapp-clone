@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WhatsApp Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="sidebar-header">
+          <img src="user.png" alt="User Avatar" class="avatar" />
+          <div class="user-info">
+            <h3>Asma</h3>
+            <p>Last seen at...</p>
+          </div>
+          <div class="icons">
+            <i class="fas fa-sync-alt"></i>
+            <i class="fas fa-ellipsis-v" id="settings-button"></i>
+          </div>
+        </div>
+        <div class="search-bar">
+          <i class="fas fa-search"></i>
+          <input
+            type="text"
+            placeholder="Search or start new chat"
+            id="search-input"
+          />
+        </div>
+        <div class="contacts" id="contacts"></div>
+        <div class="settings" id="settings-menu">
+          <ul>
+            <li>Theme</li>
+            <li>Settings</li>
+            <li>Chat History</li>
+            <li>Account</li>
+            <li>Notifications</li>
+            <li>Privacy and security</li>
+            <li>Language</li>
+            <li>Help</li>
+            <li>Logout</li>
+          </ul>
+        </div>
+      </div>
+      <div class="chat">
+        <div class="chat-header" id="chat-header"></div>
+        <div class="chat-messages" id="chat-messages"></div>
+        <div id="context-menu" class="context-menu">
+          <ul>
+            <li id="delete-message">Delete</li>
+            <li id="update-message">Update</li>
+            <li id="forward-message">Forward</li>
+          </ul>
+        </div>
+
+        <div class="chat-input">
+          <i class="fas fa-smile"></i>
+          <input type="text" id="message-input" placeholder="Type a message" />
+          <div class="attachments">
+            <i class="fas fa-paperclip"></i>
+            <i class="fas fa-microphone"></i>
+            <i class="fas fa-image"></i>
+            <i class="fas fa-camera"></i>
+          </div>
+          <button id="send-button"><i class=" fas fa-paper-plane"></i></button>
+        </div>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html> 
